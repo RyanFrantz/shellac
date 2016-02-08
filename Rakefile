@@ -1,8 +1,8 @@
 require 'rake'
 
 desc 'Run tests'
-task :tests do |test|
+task :test do
   sh 'rspec spec/'
 end
 
-task :default => :tests
+task :default => :test
