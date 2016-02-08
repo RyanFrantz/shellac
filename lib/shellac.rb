@@ -13,8 +13,6 @@ NORMAL = "\e[0;0m"
 
 module Shellac
 
-  VERSION = "0.1.1"
-
   class Runner
     attr_accessor :varnishclient, :varnishlog
   
