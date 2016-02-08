@@ -2,7 +2,7 @@
 
 require "shellac"
 
-shellac = Shellac.new
+shellac = Shellac::Runner.new
 
 varnishclient = shellac.varnishclient
 varnishlog = shellac.varnishlog
