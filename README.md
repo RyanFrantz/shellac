@@ -14,9 +14,9 @@ Install the gem via the ``gem`` command:
 
 Simply call ``shellac`` top start the REPL:
 
+```
 shellac@varnish01 ~] $ shellac
 
-```
 Default request: http://localhost/
 HTTP Port (varnishclient.request.port): 80
 HTTP Request Path (varnishclient.request.path): /
