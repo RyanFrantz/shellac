@@ -32,7 +32,7 @@ won't do anyone any good, so let's change them.
 
 ### ``varnishclient``
 
-``varnishclient`` is an instance of a [VarnishClient](/tree/master/lib/varnishclient)
+``varnishclient`` is an instance of a [VarnishClient](/blob/master/lib/varnishclient/varnishclient.rb)
 object. Its job is to define the HTTP request that will be sent to Varnish as well
 as capture its response.
 
@@ -42,7 +42,9 @@ As the above preamble recommends, the default request should be modified to make
 a valid request through Varnish.
 
 ``varnishclient.request.host`` defines the Host header for the request.
+
 ``varnishclient.request.path`` defines the path for the request.
+
 ``varnishclient.request.port`` defines the port for the request.
 
 ### ``varnishlog``
