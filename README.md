@@ -127,5 +127,5 @@ shellac> varnishlog.response.x_cache_status
 <a name="footnote_1"></a>
 [1] I am both happy and sad that there is an existing gem named [shellac](https://rubygems.org/gems/shellac).
 I'm glad that someone else shares my sense of humor (all puns are **always** intended)
-but it gets my goat that someone beat me to the punch. 4 years ago.
+but it gets my goat that someone beat me to the punch. 4 years ago. [Return](#return_from_footnote_1)
 
