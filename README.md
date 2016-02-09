@@ -37,7 +37,14 @@ shellac> make_request
 
 http://localhost:8080/images/shellac.png: 200 OK
 
-=> ["-   RespHeader     Date: Tue, 09 Feb 2016 02:37:03 GMT", "-   RespHeader     Server: Apache", "-   RespHeader     Cache-Control: max-age=60, public", "-   RespHeader     Vary: Accept-Encoding", "-   RespHeader     Content-Encoding: gzip", "-   RespHeader     Content-Length: 736", "-   RespHeader     X-Cnection: close", "-   RespHeader     Content-Type: application/json", "-   RespHeader     X-Varnish: 886856589", "-   RespHeader     Age: 0", "-   RespHeader     Via: 1.1 varnish-v4", "-   RespHeader     X-Cache-Status: MISS", "-   RespHeader     Transfer-Encoding: chunked", "-   RespHeader     Connection: close", "-   RespHeader     Accept-Ranges: bytes"]
+=> ["-   RespHeader     Date: Tue, 09 Feb 2016 02:37:03 GMT", "-   RespHeader     Server: Apache",
+"-   RespHeader     Cache-Control: max-age=60, public", "-   RespHeader     Vary: Accept-Encoding",
+"-   RespHeader     Content-Encoding: gzip", "-   RespHeader     Content-Length: 736",
+"-   RespHeader     X-Cnection: close", "-   RespHeader     Content-Type: application/json",
+"-   RespHeader     X-Varnish: 886856589", "-   RespHeader     Age: 0",
+"-   RespHeader     Via: 1.1 varnish-v4", "-   RespHeader     X-Cache-Status: MISS",
+"-   RespHeader     Transfer-Encoding: chunked", "-   RespHeader     Connection: close",
+"-   RespHeader     Accept-Ranges: bytes"]
 
 shellac> varnishlog.response.date
 => "Tue, 09 Feb 2016 02:37:03 GMT"
