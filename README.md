@@ -87,6 +87,8 @@ output the full request's URL and the response code received by ``varnishclient`
 ```
 shellac> make_request
 
+http://localhost:8080/images/shellac.png: 200 OK
+
 ```
 
 At any time, ``varnishclient``'s attributes can be modified and ``#make_request``
