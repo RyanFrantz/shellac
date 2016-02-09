@@ -12,7 +12,7 @@ end
 desc 'Build gem'
 task :build do
   sh 'gem build shellac.gemspec'
-  gem_file = "shellac-#{Shellac::VERSION}.gem"
+  gem_file = "shellac-repl-#{Shellac::VERSION}.gem"
   FileUtils.mkdir_p 'gems'
   FileUtils.mv gem_file, 'gems', :force => true
 end
