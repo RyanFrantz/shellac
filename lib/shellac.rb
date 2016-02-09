@@ -31,7 +31,11 @@ module Shellac
   
       # Start our REPL.
       Ripl.config[:prompt] = "\nshellac> "
-      Ripl.start
+      # Bind Ripl to the context of this instance so that all of the objects
+      # accessible to it (and their methods) are accessible to the user in the REPL.
+      # 'binding' is a private method that returns a Binding object; we can only
+      # access it here via the #instance_eval method.
+      Ripl.start :binding => self.instance_eval{binding}
     end
   
     # 1. Starts a thread to spawn a `varnishlog` subprocess that will catch our HTTP request.
